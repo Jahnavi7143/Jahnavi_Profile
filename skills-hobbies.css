@@ -1,0 +1,118 @@
+#skills{
+    height: 100%;
+}
+.heading-box3{
+    height: 60%;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: 2%;
+    padding-bottom: 0px; 
+    align-content: center;
+}
+
+.heading3{
+        font-size: 5rem;
+        font-weight: bold;
+        margin-top: 0px;
+        color: black;
+        text-align: center;
+        align-items: center;
+}
+.back3{
+    background-image: url("back-skills.png");
+    background-size: cover;
+    height: 100%;
+}
+#box4{
+    background-color: rgb(238, 102, 102);
+    height: 37%;
+    border-radius: 20px;
+    padding: 20px;
+    font-weight: bold;
+    margin-top: 42px;
+}
+
+
+#hobbies{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading-box4{
+    background-image: url("hobbies.png");
+    background-size: cover;
+    height: 40%;
+    width: 50%;
+    position: absolute;
+    left: 30%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    animation-name: ani-image;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-bottom: 2%;
+}
+
+@keyframes ani-image{
+    from {
+        height: 10%;
+        width: 20%;
+    }
+    to {
+        height: 40%;
+        width: 40%;
+    }
+}
+.box{
+    position: absolute;
+    bottom: 0%;
+}
+.heading4{
+    font-size: 5rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    align-items: center;
+    margin-top: -1%;
+}
+.back4{
+    background-image: url("back-hobbies.png");
+    background-size: cover;
+    height: 100%;
+}
+
+#box5{
+    background-color: rgb(243, 135, 182);
+    height: 35%;
+    width: 100vw;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 42px;
+}
+
+.back{
+    display: flex;
+    flex-direction: row;
+}
+.back a:hover{
+    color: red;
+    text-decoration: none;
+}
+.back a:visited{
+    color: rgb(123, 57, 199);
+    text-decoration: none;
+}
+.back a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: 2%;
+    margin-top: 2%; 
+}
